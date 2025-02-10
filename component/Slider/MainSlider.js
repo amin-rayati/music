@@ -2,12 +2,8 @@ import { React } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
-import slide1 from "/public/image/slide1.jpg";
-import slide2 from "/public/image/slide2.jpg";
-import slide3 from "/public/image/slide3.jpg";
-import slide4 from "/public/image/slide4.jpg";
 import { BsPlayCircleFill } from "react-icons/bs";
+
 export default function Carousel2({ cat }) {
   const slickDefaults = {
     slidesToShow: 4,
@@ -47,11 +43,12 @@ export default function Carousel2({ cat }) {
       },
     ],
   };
+
   return (
     <Slider {...slickDefaults}>
       <div>
         <div>
-          <Image alt="slide1" src={slide1} />
+          <img src="/image/slide1.jpg" alt="slide1" width="100%" />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div className="mx-3">
               <BsPlayCircleFill
@@ -71,7 +68,7 @@ export default function Carousel2({ cat }) {
       </div>
       <div>
         <div>
-          <Image alt="slide2" src={slide2} />
+          <img src="/image/slide2.jpg" alt="slide2" width="100%" />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div className="mx-3">
               <BsPlayCircleFill
@@ -91,7 +88,7 @@ export default function Carousel2({ cat }) {
       </div>
       <div>
         <div>
-          <Image alt="slide3" src={slide3} />
+          <img src="/image/slide3.jpg" alt="slide3" width="100%" />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div className="mx-3">
               <BsPlayCircleFill
@@ -111,7 +108,7 @@ export default function Carousel2({ cat }) {
       </div>
       <div>
         <div>
-          <Image alt="slide4" src={slide4} />
+          <img src="/image/slide4.jpg" alt="slide4" width="100%" />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div className="mx-3">
               <BsPlayCircleFill

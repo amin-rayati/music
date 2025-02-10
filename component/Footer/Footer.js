@@ -1,6 +1,3 @@
-import Image from "next/image";
-import googleplay from "/public/image/googleplay.png";
-import appstore from "/public/image/appstore.png";
 export default function Footer() {
   return (
     <div className="container-sm mb-3">
@@ -8,14 +5,18 @@ export default function Footer() {
         <div className="col-6">
           <ul className="list-inline text-center">
             <li className="list-inline-item">
-              <Image
+              <img
                 className="banner w-100"
                 alt="googlePlay"
-                src={googleplay}
+                src="/image/googleplay.png"
               />
             </li>
             <li className="list-inline-item">
-              <Image className="banner w-100" alt="appStore" src={appstore} />
+              <img
+                className="banner w-100"
+                alt="appStore"
+                src="/image/appstore.png"
+              />
             </li>
           </ul>
           <ul className="list-inline text-center my-3">

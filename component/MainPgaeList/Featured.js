@@ -1,10 +1,3 @@
-import Image from "next/image";
-import banner1 from "/public/image/banner1.jpg";
-import banner2 from "/public/image/banner2.jpg";
-import banner3 from "/public/image/banner3.jpg";
-import banner4 from "/public/image/banner4.jpg";
-import banner5 from "/public/image/banner5.jpg";
-import banner6 from "/public/image/banner6.jpg";
 import { BsPlayCircleFill } from "react-icons/bs";
 export default function Featured() {
   return (
@@ -12,7 +5,11 @@ export default function Featured() {
       <h1>Featured</h1>
       <div className="row">
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner1" src={banner1} />
+          <img
+            className="banner w-100"
+            alt="banner1"
+            src="/image/banner1.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
@@ -34,7 +31,11 @@ export default function Featured() {
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner2" src={banner2} />
+          <img
+            className="banner w-100"
+            alt="banner2"
+            src="/image/banner2.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
@@ -56,7 +57,11 @@ export default function Featured() {
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner3" src={banner3} />
+          <img
+            className="banner w-100"
+            alt="banner3"
+            src="/image/banner3.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
@@ -78,7 +83,11 @@ export default function Featured() {
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner4" src={banner4} />
+          <img
+            className="banner w-100"
+            alt="banner4"
+            src="/image/banner4.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
@@ -100,7 +109,11 @@ export default function Featured() {
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner5" src={banner5} />
+          <img
+            className="banner w-100"
+            alt="banner5"
+            src="/image/banner5.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
@@ -122,7 +135,11 @@ export default function Featured() {
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-4 col-6 my-2">
-          <Image className="banner w-100" alt="banner6" src={banner6} />
+          <img
+            className="banner w-100"
+            alt="banner6"
+            src="/image/banner6.jpg"
+          />
           <div className="d-flex mt-3" style={{ alignItems: "center" }}>
             <div>
               <BsPlayCircleFill
